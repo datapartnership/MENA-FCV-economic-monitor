@@ -11,6 +11,9 @@ parts:
       - file: notebooks/linkedin/README
         sections:
           - file: notebooks/linkedin/linkedin-labor-analysis.ipynb
+      - file: notebooks/migration/README.md
+        sections:
+        - file: notebooks/migration/migration.ipynb
   - caption: Additional Resources
     chapters:
       - url: https://datapartnership.org

@@ -93,4 +93,6 @@ _build/
 
 # setuptools-scm/
 src/*/_version.py
-/data
+
+# Data
+data/
