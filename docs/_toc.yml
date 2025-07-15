@@ -7,20 +7,15 @@ parts:
       - file: docs/1-intro-to-data-lab
   - caption: Analytics
     chapters:
-      - file: docs/2-analytics
       - file: notebooks/linkedin/README
         sections:
           - file: notebooks/linkedin/linkedin-labor-analysis.ipynb
-      - file: notebooks/migration/README.md
+      - file: notebooks/migration/README
         sections:
         - file: notebooks/migration/migration.ipynb
   - caption: Additional Resources
     chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
+      - file: docs/3-add-resources
+  - caption: Acknowledgements
+    chapters:
+      - file: docs/4-team
