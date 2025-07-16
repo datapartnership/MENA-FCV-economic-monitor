@@ -7,6 +7,9 @@ parts:
       - file: docs/1-intro-to-data-lab
   - caption: Analytics
     chapters:
+      - file: notebooks/conflict/conflict.md
+        sections:
+          - file: notebooks/conflict/acled.ipynb
       - file: notebooks/linkedin/README
         sections:
           - file: notebooks/linkedin/linkedin-labor-analysis.ipynb
