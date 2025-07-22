@@ -16,12 +16,9 @@ parts:
       - file: notebooks/migration/README
         sections:
         - file: notebooks/migration/migration.ipynb
-  - caption: Internet Infrastructure
-    numbered: True
-    chapters:
       - file: notebooks/internet/ookla-introduction.ipynb
-      - file: notebooks/internet/ookla-performance.ipynb
         sections:
+          - file: notebooks/internet/ookla-performance.ipynb
           - file: notebooks/internet/ookla-performance-focus.ipynb
   - caption: Additional Resources
     chapters:
