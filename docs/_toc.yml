@@ -16,13 +16,6 @@ parts:
       - file: notebooks/migration/README
         sections:
         - file: notebooks/migration/migration.ipynb
-  - caption: Additional Resources
-    chapters:
-      - file: docs/3-add-resources
-  - caption: Acknowledgements
-    chapters:
-      - file: docs/4-team
-
   - caption: Internet Infrastructure
     numbered: True
     chapters:
@@ -30,3 +23,9 @@ parts:
       - file: notebooks/internet/ookla-performance.ipynb
         sections:
           - file: notebooks/internet/ookla-performance-focus.ipynb
+  - caption: Additional Resources
+    chapters:
+      - file: docs/3-add-resources
+  - caption: Acknowledgements
+    chapters:
+      - file: docs/4-team
