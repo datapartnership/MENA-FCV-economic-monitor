@@ -5,4 +5,7 @@ parts:
   - caption: Internet Infrastructure
     numbered: True
     chapters:
+      - file: notebooks/ookla-introduction.ipynb
       - file: notebooks/ookla-performance.ipynb
+        sections:
+          - file: notebooks/ookla-performance-focus.ipynb
