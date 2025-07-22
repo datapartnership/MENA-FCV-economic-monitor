@@ -94,5 +94,23 @@ _build/
 # setuptools-scm/
 src/*/_version.py
 
-# Data
+# files
+*.shp
+*.cpg
+*.prj
+*.dbf
+*.shx
+*.sbn
+*.sbx
+*.shp.xml
+*.CPG
+*.zip
+*.geojson
+*.parquet
+*.json
+*.topojson
+
+
+# folders
 data/
+results/

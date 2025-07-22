@@ -16,6 +16,10 @@ parts:
       - file: notebooks/migration/README
         sections:
         - file: notebooks/migration/migration.ipynb
+      - file: notebooks/internet/ookla-introduction.ipynb
+        sections:
+          - file: notebooks/internet/ookla-performance.ipynb
+          - file: notebooks/internet/ookla-performance-focus.ipynb
   - caption: Additional Resources
     chapters:
       - file: docs/3-add-resources
