@@ -2,10 +2,23 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Internet Infrastructure
-    numbered: True
+  - caption: Introduction to the Data Lab
     chapters:
-      - file: notebooks/ookla-introduction.ipynb
-      - file: notebooks/ookla-performance.ipynb
+      - file: docs/1-intro-to-data-lab
+  - caption: Analytics
+    chapters:
+      - file: notebooks/conflict/conflict.md
         sections:
-          - file: notebooks/ookla-performance-focus.ipynb
+          - file: notebooks/conflict/acled.ipynb
+      - file: notebooks/linkedin/README
+        sections:
+          - file: notebooks/linkedin/linkedin-labor-analysis.ipynb
+      - file: notebooks/migration/README
+        sections:
+        - file: notebooks/migration/migration.ipynb
+  - caption: Additional Resources
+    chapters:
+      - file: docs/3-add-resources
+  - caption: Acknowledgements
+    chapters:
+      - file: docs/4-team
