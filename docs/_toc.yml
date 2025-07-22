@@ -20,6 +20,7 @@ parts:
         sections:
           - file: notebooks/internet/ookla-performance.ipynb
           - file: notebooks/internet/ookla-performance-focus.ipynb
+          - file: notebooks/internet/ookla-performance-all-mena.ipynb
   - caption: Additional Resources
     chapters:
       - file: docs/3-add-resources
