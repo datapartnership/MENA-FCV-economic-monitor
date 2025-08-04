@@ -15,6 +15,43 @@ logger = SimpleLogger()
 
 # --- Dependency Functions ---
 
+def get_country_name_from_iso_code(iso_code: str) -> str | None:
+    """
+    Retrieves the common name of a country from its ISO 3166-1 alpha-2 or alpha-3 code.
+
+    This function uses the 'pycountry' library to perform the lookup. It is robust
+    to both 2-letter (alpha-2) and 3-letter (alpha-3) country codes.
+
+    Args:
+        iso_code (str): The ISO 3166-1 country code (e.g., 'US', 'USA', 'DE', 'DEU').
+                        The input is case-insensitive.
+
+    Returns:
+        str | None: The common name of the country (e.g., 'United States'), or
+                    None if the ISO code is not a valid code or not found.
+    """
+    # Ensure the input is a string and handle potential leading/trailing whitespace
+    iso_code = str(iso_code).strip().upper()
+
+    try:
+        # First, try to look up by alpha-2 code
+        country = pycountry.countries.get(alpha_2=iso_code)
+        if country:
+            return country.name
+
+        # If not found, try to look up by alpha-3 code
+        country = pycountry.countries.get(alpha_3=iso_code)
+        if country:
+            return country.name
+
+        # If neither lookup is successful, return None
+        return None
+
+    except Exception as e:
+        # Catch any other exceptions during the lookup process and return None
+        print(f"An error occurred while looking up ISO code '{iso_code}': {e}")
+        return None
+
 def get_iso_code_from_country_name(country_name: str) -> str | None:
     """
     Returns the 3-letter ISO code for a given country name using the pycountry library.
