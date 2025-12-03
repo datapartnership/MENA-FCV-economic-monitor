@@ -52,6 +52,9 @@ include = [
     "src/**/*"
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
 [tool.hatch.version]
 source = "vcs"
 
