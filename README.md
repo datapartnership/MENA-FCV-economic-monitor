@@ -11,12 +11,14 @@ This assignment aims to compare the impacts of conflict across the Fragile, Conf
 
 ## Data
 
-The following datasets are used in this assignment:
+The following datasets are used in this assignment. The raw data accessible to project team members is available on [SharePoint](https://worldbankgroup.sharepoint.com.mcas.ms/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FDevelopmentDataPartnershipCommunity%2DWBGroup%2FShared%20Documents%2FProjects%2FData%20Lab%2FFCV%20Regional%20Report%2Fdata&viewid=80cdadb3%2D8bb3%2D47ae%2D8b18%2Dc1dd89c373c5&csf=1&web=1&e=Yvwh8r&cid=fccdf23e%2D94d5%2D48bf%2Db75d%2D0af291138bde&FolderCTID=0x012000CFAB9FF0F938A64EBB297E7E16BDFCFD)
 
 * [LinkedIn Hiring Rate](/) - Data from LinkedIn's Economic Graph, which provides insights into hiring trends across MENA region, Afghanistan, and Pakistan.
 * [Speedtest Intelligence](/) - Data from Ookla's Speedtest Intelligence, which provides insights into internet speed and quality across MENA region, Afghanistan, and Pakistan.
 * [Down Detector](/) - Data from Ookla's Down Detector, which provides insights into internet outages and disruptions across MENA region, Afghanistan, and Pakistan.
 * [International Migration Flows](/) - Data from Meta's Data for Good program, which provides insights into global migration flows using Facebook's privacy-protected records of their three billion users. This dataset estimates migration flows for 181 countries on a monthly basis from January 2019 to December 2022.
+* [ACLED](/) - Data from Armed Conflict Location Event Database that decsribes the locations of all conflicts and fatalities. 
+* [Population](/) - Population data is used from WorldPop 
 
 Additional details about each dataset—such as licensing, update frequency, and access instructions—are provided within the respective data products.
 

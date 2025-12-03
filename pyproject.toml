@@ -3,8 +3,8 @@ requires = ["hatchling>=1.21.0", "hatch-vcs>=0.3.0"]
 build-backend = "hatchling.build"
 
 [project]
-name = "template"
-description = "A template Python package from the World Bank Data Lab"
+name = "mena-fcv-economic-monitor"
+description = "MENA-FCV Economic Monitoring project from the World Bank Data Lab"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
 keywords = ["template", "reproducibility"]
@@ -38,9 +38,9 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/worldbank/template"
-"Bug Reports" = "https://github.com/worldbank/template/issues"
-"Source" = "https://github.com/worldbank/template"
+"Homepage" = "https://github.com/worldbank/MENA-FCV-economic-monitor"
+"Bug Reports" = "https://github.com/worldbank/MENA-FCV-economic-monitor/issues"
+"Source" = "https://github.com/worldbank/MENA-FCV-economic-monitor"
 
 [tool.codespell]
 skip = 'docs/_build,docs/bibliography.bib,*.png,*.gz,*.whl'
