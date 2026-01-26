@@ -1,11 +1,20 @@
 cff-version: 1.2.0
-message: "Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries."
-title: "World Bank Data Lab Project Template"
+message: "Country borders or names do not necessarily reflect the World Bank Group's official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries."
+title: "MENA-FCV Economic Monitoring"
 authors:
   - affiliation: World Bank
-    family-names: Stefanini Vicente
-    given-names: Gabriel
-    orcid: https://orcid.org/0000-0001-6530-3780
+    family-names: Sarva
+    given-names: Sahiti
+  - affiliation: World Bank
+    family-names: Sol Tadeo
+    given-names: Maria
+  - affiliation: World Bank
+    family-names: Reyes Retana Torre
+    given-names: María
+  - affiliation: World Bank
+    family-names: Reynaldo Hutabarat
+    given-names: Farhan
 keywords:
   - Open Science
-repository-code: https://github.com/worldbank/template/tree/main
+repository-code: https://github.com/worldbank/MENA-FCV-economic-monitor
+url: https://worldbank.github.io/MENA-FCV-economic-monitor
