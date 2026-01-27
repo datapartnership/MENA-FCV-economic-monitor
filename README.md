@@ -9,6 +9,30 @@ This assignment aims to compare the impacts of conflict across the Fragile, Conf
 ```{tableofcontents}
 ```
 
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Jupyter Lab for running notebooks
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/worldbank/MENA-FCV-economic-monitor.git
+   cd MENA-FCV-economic-monitor
+   ```
+
+3. Launch Jupyter Lab:
+   ```bash
+   jupyter lab
+   ```
+
+### Usage
+
+For detailed documentation and analysis notebooks, visit the [project documentation](https://worldbank.github.io/MENA-FCV-economic-monitor).
+
 ## Data
 
 The following datasets are used in this assignment. The raw data accessible to project team members is available on [SharePoint](https://worldbankgroup.sharepoint.com.mcas.ms/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FDevelopmentDataPartnershipCommunity%2DWBGroup%2FShared%20Documents%2FProjects%2FData%20Lab%2FFCV%20Regional%20Report%2Fdata&viewid=80cdadb3%2D8bb3%2D47ae%2D8b18%2Dc1dd89c373c5&csf=1&web=1&e=Yvwh8r&cid=fccdf23e%2D94d5%2D48bf%2Db75d%2D0af291138bde&FolderCTID=0x012000CFAB9FF0F938A64EBB297E7E16BDFCFD)
@@ -27,11 +51,21 @@ Additional details about each dataset—such as licensing, update frequency, and
 Restrictions may apply to the data that support the findings of this study. Data received from the private sector through the Development Data Partnership are subject to the terms and conditions of the data license agreement and the “Official Use Only” data classification. These data are available upon request through the [Development Data Partnership](https://datapartnership.org/). Licensing and access information for all other datasets are included in the documentation.
 
 
+## Contact
+
+For questions, feedback, or contributions, please contact:
+- Development Data Partnership: datalab@worldbank.org
+- GitHub Issues: github@worldbank.org
+
+You can also open an issue in the [GitHub repository](https://github.com/worldbank/MENA-FCV-economic-monitor/issues).
+
 ## License
 
-This projects is licensed under the [**Mozilla Public License**](https://opensource.org/license/mpl-2-0/) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License together with the World Bank IGO Rider. The Rider is purely procedural: it reserves all privileges and immunities enjoyed by the World Bank, without adding restrictions to the MIT permissions. Please review both files before using, distributing or contributing.
+
+See [LICENSE](LICENSE) for full details.
 
 
 ## Code of Conduct
 
-The World Bank Data Lab <span style="color:#3EACAD">template</span> used to create this project maintains a [Code of Conduct](docs/CODE_OF_CONDUCT.md) to ensure an inclusive and respectful environment for everyone. Please adhere to it in all interactions within our community.
+This project maintains a [Code of Conduct](docs/CODE_OF_CONDUCT.md) to ensure an inclusive and respectful environment for everyone. Please adhere to it in all interactions within our community.
