@@ -54,7 +54,7 @@ Restrictions may apply to the data that support the findings of this study. Data
 ## Contact
 
 For questions, feedback, or contributions, please contact:
-- Development Data Partnership: datalab@worldbank.org
+- Development Data Partnership: datapartnership@worldbank.org
 - GitHub Issues: github@worldbank.org
 
 You can also open an issue in the [GitHub repository](https://github.com/worldbank/MENA-FCV-economic-monitor/issues).
@@ -69,3 +69,4 @@ See [LICENSE](LICENSE) for full details.
 ## Code of Conduct
 
 This project maintains a [Code of Conduct](docs/CODE_OF_CONDUCT.md) to ensure an inclusive and respectful environment for everyone. Please adhere to it in all interactions within our community.
+
