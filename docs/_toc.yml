@@ -22,6 +22,7 @@ parts:
           - file: notebooks/internet/ookla-performance.ipynb
           - file: notebooks/internet/ookla-performance-focus.ipynb
           - file: notebooks/internet/ookla-performance-all-mena.ipynb
+      - file: notebooks/aviation/aviation_update.ipynb
       - file: notebooks/climate/README
         sections:
         - file: notebooks/climate/climate.ipynb
